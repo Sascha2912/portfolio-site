@@ -4,10 +4,148 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio von Sascha Holzigel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-   <h1>Welcome to my Protfolio-Site</h1>
+    <header>
+        <div class="logo">
+            <img src="src/assets/img/IMG_9805.jpg" alt="">
+        </div>
+
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   <!-- Intoduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Sascha Holzigel</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--into">front-end dev</p>
+        <img src="src/assets/img/dev-jane-01.jpg" alt="Placeholder-1">
+    </section>
+
+    <!-- My services -->
+     <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3> Design + Development</h3>  
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sapiente repellat voluptate alias, illo officiis odit! Itaque reprehenderit possimus, vel cupiditate placeat sint. Adipisci in molestiae quo. Cum, perferendis nobis?</p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>E-Commerce</h3>  
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate cum dolorum laboriosam libero possimus commodi, voluptates expedita tempore? Adipisci sapiente debitis magnam quae est optio obcaecati officia ipsum sunt incidunt?</p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>WordPress</h3>  
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus qui animi, voluptate repellat enim natus vitae veniam velit quia dignissimos aperiam laboriosam doloribus porro quaerat architecto voluptas eaque ex.</p>
+            </div> <!-- / service -->
+        </div> <!-- / services -->
+
+        <a href="#work" class="btn">My Work</a>
+     </section>
+
+
+     <!-- About me -->
+     <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about"></p>
+
+        <div class="about-me__body">
+            <p></p>
+            <p></p>
+        </div>
+
+        <img src="src/assets/img/dev-jane-02.jpg" alt="Placeholder-2">
+     </section>
+
+     <!-- My Work -->
+      <section class="my-work" id="work">
+        <h2 class="section__titel">My Work</h2>
+        <p class="section__subtitle"></p>
+
+        <div class="portfoio">
+            <!-- Portfolio item 01 -->
+            <a href="#" class="portfolio__item">
+                <img src="src/assets/img/portfolio-01.jpg" alt="Portfolio-Placeholder-1" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 02 -->
+            <a href="#" class="portfolio__item">
+                <img src="src/assets/img/portfolio-02.jpg" alt="Portfolio-Placeholder-2" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 03 -->
+            <a href="#" class="portfolio__item">
+                <img src="src/assets/img/portfolio-03.jpg" alt="Portfolio-Placeholder-3" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 04 -->
+            <a href="#" class="portfolio__item">
+                <img src="src/assets/img/portfolio-04.jpg" alt="Portfolio-Placeholder-4" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 05 -->
+            <a href="#" class="portfolio__item">
+                <img src="src/assets/img/portfolio-05.jpg" alt="Portfolio-Placeholder-5" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 06 -->
+            <a href="#" class="portfolio__item">
+                <img src="src/assets/img/portfolio-06.jpg" alt="Portfolio-Placeholder-6" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 07 -->
+            <a href="#" class="portfolio__item">
+                <img src="src/assets/img/portfolio-07.jpg" alt="Portfolio-Placeholder-7" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 08 -->
+            <a href="#" class="portfolio__item">
+                <img src="src/assets/img/portfolio-08.jpg" alt="Portfolio-Placeholder-8" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 09 -->
+            <a href="#" class="portfolio__item">
+                <img src="src/assets/img/portfolio-09.jpg" alt="Portfolio-Placeholder-9" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 10 -->
+            <a href="#" class="portfolio__item">
+                <img src="src/assets/img/portfolio-10.jpg" alt="Portfolio-Placeholder-10" class="portfolio__img">
+            </a>
+            
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <a href="mailto:hello@jane.dev" class="footer__link">hello@jane.dev</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a href="https://github.com/Sascha2912" class="social-list__link">GitHub</a></li>
+            <li class="social-list__item"><a href="https://www.linkedin.com/in/sascha-holzigel-829163277/" class="social-list__link">LinkedIn</a></li>
+            <li class="social-list__item"><a href="https://app.netlify.com/teams/sascha2912/sites" class="social-list__link">Netlify</a></li>
+        </ul>
+      </footer>
+
     <script src="src/js/script.js"></script>
 </body>
 </html>
