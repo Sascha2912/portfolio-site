@@ -495,3 +495,14 @@ header {
     height: 80px;
     padding: .5em;
 }
+
+.icon-list__link {
+    color: var(--clr-dark);
+    padding: .5em;
+    text-decoration: none;
+}
+
+.icon-list__link:hover {
+    color: var(--clr-accent);
+    opacity: .7;
+}
