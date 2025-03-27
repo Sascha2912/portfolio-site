@@ -470,3 +470,28 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
+.portfolio-item-icons {
+    color: var(--clr-dark);
+    text-align: center;
+    padding: .5em 0;
+    font-size: var(--fs-h3);
+}
+
+.icon-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.icon-list__item {
+    margin: 0 .5em;
+}
+
+.icon-list__img {
+    width: 80px;
+    height: 80px;
+    padding: .5em;
+}
